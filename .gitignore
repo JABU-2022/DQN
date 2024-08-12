@@ -1,0 +1,16 @@
+# Virtual Environment
+RL/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment data
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
