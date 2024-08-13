@@ -15,10 +15,11 @@ The goal of this project is to train a reinforcement learning agent using Deep Q
 ### Clone the Repository
 
 To get started, clone the repository and navigate into the project directory:
-
+```bash
 
 git clone https://github.com/yourusername/material-dqn.git
 cd material-dqn
+```
 
 ### Create a Virtual Environment
 
