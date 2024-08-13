@@ -25,20 +25,18 @@ cd material-dqn
 
 Create and activate a virtual environment to manage dependencies:
 
-
+```bash
 python -m venv myenv
 myenv\Scripts\activate  # On Windows
 source myenv/bin/activate  # On macOS/Linux
-
+```
 
 ### Install the Necessary Packages
 
 Install the required packages using pip:
-
-
-
+```bash
 pip install gym numpy tensorflow keras-rl2
-
+```
 
 ### Files
 
@@ -52,18 +50,15 @@ pip install gym numpy tensorflow keras-rl2
 ### Train the Agent
 
 To train the DQN agent, execute the following command:
-
-
+```bash
 python train.py
-
+```
 ### Simulate the Trained Agent
 
 If a simulation script is available, you can test the trained agent with:
-
-
-
+```bash
 python play.py
-
+```
 ###Results
 
 The trained agent effectively navigates the 5x5 grid environment, successfully collecting materials with high sustainability scores and minimizing movement penalties. The model weights are saved as `dqn_material_env_weights.h5f`
