@@ -59,7 +59,7 @@ If a simulation script is available, you can test the trained agent with:
 ```bash
 python play.py
 ```
-###Results
+### Results
 
 The trained agent effectively navigates the 5x5 grid environment, successfully collecting materials with high sustainability scores and minimizing movement penalties. The model weights are saved as `dqn_material_env_weights.h5f`
 
