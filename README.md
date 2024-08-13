@@ -16,7 +16,7 @@ The goal of this project is to train a reinforcement learning agent using Deep Q
 
 To get started, clone the repository and navigate into the project directory:
 
-```bash
+
 git clone https://github.com/yourusername/material-dqn.git
 cd material-dqn
 
@@ -24,7 +24,7 @@ cd material-dqn
 
 Create and activate a virtual environment to manage dependencies:
 
-```bash
+
 python -m venv myenv
 myenv\Scripts\activate  # On Windows
 source myenv/bin/activate  # On macOS/Linux
@@ -34,7 +34,7 @@ source myenv/bin/activate  # On macOS/Linux
 
 Install the required packages using pip:
 
-```bash
+
 
 pip install gym numpy tensorflow keras-rl2
 
@@ -52,14 +52,14 @@ pip install gym numpy tensorflow keras-rl2
 
 To train the DQN agent, execute the following command:
 
-```bash
+
 python train.py
 
 ### Simulate the Trained Agent
 
 If a simulation script is available, you can test the trained agent with:
 
-```bash
+
 
 python play.py
 
